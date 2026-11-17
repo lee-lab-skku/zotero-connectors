@@ -2,6 +2,13 @@
 
 [![Build Status](https://travis-ci.org/zotero/zotero-connectors.svg?branch=master)](https://travis-ci.org/zotero/zotero-connectors)
 
+## Browser CLI saving
+
+This fork adds an opt-in local bridge for `zotero-cli browser`.
+A paired CLI can invoke the same toolbar save action in an open tab and receive attachment completion results.
+See [Browser CLI setup and protocol](docs/browser-cli.md).
+The integration was developed with AI assistance; maintainers remain responsible for its behavior and review.
+
 ## Building
 
 1. `git clone https://github.com/zotero/zotero-connectors.git`

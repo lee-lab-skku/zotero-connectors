@@ -31,12 +31,12 @@ Omit `<version>` to use the latest published version. Normal builds copy the com
 
 1. Go to chrome://extensions/
 1. Enable "Developer Mode".
-1. Click "Load unpacked extension…" and select the `build/browserExt` directory.
+1. Click "Load unpacked extension…" and select the `build/manifestv3` directory.
 
 ### Firefox
 
 1. Go to about:debugging
-1. Click "Load Temporary Add-on" and select the `build/browserExt/manifest.json` file.
+1. Click "Load Temporary Add-on" and select the `build/firefox/manifest.json` file.
 
 ### Safari
 
